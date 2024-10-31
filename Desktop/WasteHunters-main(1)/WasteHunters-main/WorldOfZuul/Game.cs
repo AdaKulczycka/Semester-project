@@ -148,11 +148,7 @@ namespace WorldOfZuul
                             currentRoom?.Garbage.Remove(currentTrash);
                         }
                         break;
-                    // case "take":
-                    //     TakeItem(command.Name, 0);
-
-                    //     break;
-
+                   
                     case "inventory":
                         inventory.ShowInventory();
                         break;
